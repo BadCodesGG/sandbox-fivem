@@ -1,0 +1,8 @@
+AddEventHandler("Phone:Server:RegisterCallbacks", function()
+	Callbacks:RegisterServerCallback("Phone:Media:GetMedia", function(source, data, cb)
+		cb(Photos:Fetch(source))
+	end)
+	Callbacks:RegisterServerCallback("Phone:Media:DeleteMedia", function(source, data, cb)
+		cb(Photos:Delete(source, data.id))
+	end)
+end)

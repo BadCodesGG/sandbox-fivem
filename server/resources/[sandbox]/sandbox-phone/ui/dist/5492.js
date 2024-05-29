@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksandbox_phone=self.webpackChunksandbox_phone||[]).push([[5492],{85492:(e,l,o)=>{o.r(l),o.d(l,{Categories:()=>b});var a=o(13486),n=o(60265),r=o(6949),s=o(96129),b=[{label:"Services",color:a.Z[500]},{label:"Want-To-Buy",color:n.Z[500]},{label:"Want-To-Sell",color:r.Z[500]},{label:"Help Wanted",color:s.Z[500]}]}}]);

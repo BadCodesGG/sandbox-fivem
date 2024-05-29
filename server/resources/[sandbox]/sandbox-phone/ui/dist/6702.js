@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksandbox_phone=self.webpackChunksandbox_phone||[]).push([[6702],{66702:(e,a,n)=>{n.r(a),n.d(a,{default:()=>t});var s=n(67294),o=n(45525),p=n(86706);const t=function(e){var a=(0,p.I0)();return s.createElement(o.zj,{appId:"music"},void a({type:"MUSIC_APP_OPEN",payload:{show:!0}}))}}}]);

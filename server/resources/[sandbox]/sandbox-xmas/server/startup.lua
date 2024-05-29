@@ -1,0 +1,3 @@
+function Startup()
+    GenerateNewTree()
+end

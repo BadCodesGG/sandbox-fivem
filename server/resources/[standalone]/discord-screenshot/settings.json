@@ -1,0 +1,11 @@
+{
+    "webhookUrl": "",
+    "framework": "none",
+    "commandName": "",
+    "commandPermission": "request.screenshot",
+    "hiddenIdentifiers": [],
+    "screenshotOptions": {
+        "encoding": "webp",
+        "quality": 0.80
+    }
+}

@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script>
+            window.onload = () => {
+                window.addEventListener('message', evt => {
+                    switch(evt.data.msg) {
+                        case 'copy':
+                            console.log('copying')
+                            const target = document.getElementById('copier')
+                            target.value = JSON.stringify(evt.data.payload).replace(/^["'](.+(?=["']$))["']$/, '$1')
+                            target.select()
+                            target.setSelectionRange(0, 99999)
+                            document.execCommand('copy')
+                    }
+                })
+            }
+        </script>
+    </head>
+<body style="opacity: 0;">
+    <input id="copier" type="text" />
+</body>
+</html>

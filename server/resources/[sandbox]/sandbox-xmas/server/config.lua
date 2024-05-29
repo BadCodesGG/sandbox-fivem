@@ -1,0 +1,50 @@
+_xmasConfig = _xmasConfig or {}
+
+_xmasConfig.Locations = {
+	vector3(150.665, -978.762, 29.092),
+	vector3(315.255, -836.076, 28.283),
+	vector3(293.846, -609.684, 42.352),
+	vector3(426.684, -974.506, 29.711),
+	vector3(540.747, -286.960, 48.981),
+	vector3(366.687, -77.226, 66.338),
+	vector3(-555.990, -636.118, 32.798),
+	vector3(-490.535, -691.165, 32.212),
+	vector3(221.780, 208.140, 104.500),
+	vector3(686.268, 577.751, 129.461),
+	vector3(923.407, 47.174, 80.106),
+	vector3(1851.864, 2585.915, 44.673),
+	vector3(2363.958, 3153.019, 47.209),
+	vector3(1982.006, 3062.721, 46.178),
+	vector3(1848.544, 3677.539, 32.975),
+	vector3(142.512, 6652.973, 30.517),
+	vector3(109.218, 6415.398, 30.530),
+	vector3(-132.071, 6300.080, 31.107),
+}
+
+_xmasConfig.Loot = {
+	present = {
+		{ 16, { name = "burgershot_drink", min = 2, max = 4 } },
+		{ 16, { name = "double_shot_burger", min = 2, max = 4 } },
+		{ 16, { name = "prickly_burger", min = 2, max = 4 } },
+		{ 16, { name = "plastic", min = 10, max = 30 } },
+		{ 8, { name = "scrapmetal", min = 6, max = 12 } },
+		{ 8, { name = "electronic_parts", min = 16, max = 28 } },
+		{ 8, { name = "rubber", min = 10, max = 20 } },
+		{ 8, { name = "glue", min = 10, max = 50 } },
+		{ 4, { name = "shark_card", min = 1, max = 1, metadata = { CustomAmt = { Min = 5000, Random = 15000 } } } },
+	},
+	daily = {
+		{ 10, { name = "meteorite_icecream", min = 3, max = 9 } },
+		{ 10, { name = "orangotang_icecream", min = 3, max = 9 } },
+		{ 10, { name = "heartstopper", min = 2, max = 6 } },
+		{ 10, { name = "burgershot_drink", min = 4, max = 12 } },
+		{ 8, { name = "refined_metal", min = 2, max = 6 } },
+		{ 8, { name = "refined_iron", min = 2, max = 6 } },
+		{ 8, { name = "refined_copper", min = 2, max = 6 } },
+		{ 8, { name = "refined_plastic", min = 2, max = 6 } },
+		{ 8, { name = "refined_glue", min = 2, max = 6 } },
+		{ 8, { name = "refined_electronics", min = 2, max = 6 } },
+		{ 8, { name = "refined_rubber", min = 2, max = 6 } },
+		{ 4, { name = "shark_card", min = 1, max = 1, metadata = { CustomAmt = { Min = 10000, Random = 50000 } } } },
+	},
+}
